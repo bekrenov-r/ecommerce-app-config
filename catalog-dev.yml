@@ -3,8 +3,8 @@ spring:
     name: catalog
   datasource:
     url: jdbc:postgresql://localhost:5432/items_data
-    username: 
-    password: 
+    username: "{cipher}b7221341b7d0550390f532af7eb6ffed18593bf0d8988242df84a2802c3f4b38"
+    password: "{cipher}a3fee8743f7adb793b4c2879fdfc3babefa937dd02598743cad708fe4af3e2aa"
     driver-class-name: org.postgresql.Driver
   kafka:
     consumer:
